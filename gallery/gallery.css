@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+img {
+    width: 20%;
+  }
+  
+  body {
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid gray;
+    padding: 8px;
+    margin: 8px;
+    transition: all 0.5s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px gray;
+  }
